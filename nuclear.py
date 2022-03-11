@@ -93,7 +93,7 @@ def title(sauce):
             
 
 #PRep the lists
-a_file = open("nuke.txt", "r")
+a_file = open("/content/drive/MyDrive/nuke.txt", "r")
 nukeList = []
 for line in a_file:
   stripped_line = line.strip()
@@ -102,7 +102,7 @@ for line in a_file:
 a_file.close()
 
 
-a_file = open("nukeEnd.txt", "r")
+a_file = open("/content/drive/MyDrive/nukeEnd.txt", "r")
 doneList = []
 for line in a_file:
   stripped_line = line.strip()
